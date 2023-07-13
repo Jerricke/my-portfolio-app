@@ -7,7 +7,10 @@
   font-family: "Nunito", sans-serif;
   color: #F4EEE0;
   overflow-x: hidden;
-  
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* NAVBAR SECTION */
@@ -30,6 +33,10 @@ header {
   font-family: "Fasthand";
 }
 
+a {
+  text-decoration: none;
+}
+
 .nameLogo:hover {
   cursor: pointer;
 }
@@ -47,7 +54,6 @@ header {
 }
 
 .items li a {
-  text-decoration: none;
   display: block;
   padding: 0.5em 1.25em;
 }
@@ -138,7 +144,20 @@ transition: .3s, background-size .3s .3s;
 .aboutSection {
   background-color: #4F4557;
   display: flex;
+  padding: 10rem;
+  flex-flow: row wrap;
+  gap: 2rem;
 }
+
+.aboutMe {
+  flex: 1
+}
+
+.aboutSection img {
+  flex: 1;
+  width: 20rem;
+}
+
 
 
 

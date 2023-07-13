@@ -26,6 +26,8 @@ function App() {
     })
   }, [])
 
+  
+
   return (
     <>
         <NavBar />
@@ -34,7 +36,6 @@ function App() {
         <About />
         <div className="spacer layer2"></div>
         <ProjectSection />
-        
     </>
   )
 }

@@ -1,5 +1,4 @@
-function ProjectDetail({title, desc, LoR="left"}) {
-
+function ProjectDetail({title, desc, LoR="left"}) { 
     return (
         <div className={`fade-in projectDetail ${LoR}`}>
             <h1>{title}</h1>

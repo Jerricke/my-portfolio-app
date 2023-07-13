@@ -9,7 +9,7 @@ function ProjectSection() {
     console.log(poke);
     
     return( 
-        <div className="projectSection">
+        <div id="ProjectSection" className="projectSection">
             <h1>My Work</h1>
             <div className="projectDiv">
                 <ProjectCard classInput={"first"} img={poke}/>
