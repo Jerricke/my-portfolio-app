@@ -149,15 +149,24 @@ transition: .3s, background-size .3s .3s;
   gap: 2rem;
 }
 
-.aboutMe {
-  flex: 1
+.aboutSection .aboutMe {
+  flex: 1 1 20rem
 }
 
-.aboutSection img {
-  flex: 1;
-  width: 20rem;
+.aboutSection .aboutMe h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.aboutSection .aboutMe p{
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
 }
 
+.aboutSection .aboutAnimation {
+  flex: 1 1 30rem;
+  width: 40rem;
+  height: auto;
+}
 
 
 
