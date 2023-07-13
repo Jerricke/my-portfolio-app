@@ -1,5 +1,5 @@
 
-import VisualAnimation from "./visualAnimation";
+import VisualAnimation from "./VisualAnimation";
 
 function About() {
 
