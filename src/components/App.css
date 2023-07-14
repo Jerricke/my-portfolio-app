@@ -22,6 +22,7 @@ header {
   font-size: 1.25em;
   background-color: #6D5D6E;
   z-index: 1;
+  overflow-y: hidden;
 
   position: fixed;
   width: 100%;

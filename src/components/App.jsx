@@ -34,7 +34,7 @@ function App() {
         <Hero />
         <div className="spacer layer1"></div>
         <About />
-        <div className="spacer layer2"></div>
+        <div id="pJump"className="spacer layer2"></div>
         <ProjectSection />
     </>
   )

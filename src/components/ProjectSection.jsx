@@ -6,7 +6,6 @@ import ProjectDetail from "./ProjectDetail";
 
 
 function ProjectSection() {
-    console.log(poke);
     
     return( 
         <div id="ProjectSection" className="projectSection">
