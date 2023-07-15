@@ -1,4 +1,4 @@
-import Jerrick from "../../assets/Jerrick.jpeg";
+import Jerrick from "../../../assets/Jerrick.jpeg";
 import '../CSS/Hero.css'
 
 function Hero() {

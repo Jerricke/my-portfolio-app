@@ -1,11 +1,11 @@
-import { useEffect } from 'react'
-import Hero from './Hero'
-import NavBar from './NavBar'
-import ProjectSection from './ProjectSection'
-import About from './About'
-import Welcome from './Welcome'
-import '../CSS/App.css'
-import '../CSS/divider.css'
+import { useEffect } from 'react';
+import Hero from './Hero';
+import NavBar from './NavBar';
+import ProjectSection from './ProjectSection';
+import About from './About';
+import Welcome from './Welcome';
+import '../CSS/App.css';
+import '../CSS/divider.css';
 
 function App() {
   
