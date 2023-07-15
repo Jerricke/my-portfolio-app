@@ -4,6 +4,7 @@ import Hero from './Hero'
 import NavBar from './NavBar'
 import ProjectSection from './ProjectSection'
 import About from './About'
+import Welcome from './Welcome'
 
 function App() {
   
@@ -31,6 +32,7 @@ function App() {
   return (
     <>
         <NavBar />
+        <Welcome />
         <Hero />
         <div className="spacer layer1"></div>
         <About />

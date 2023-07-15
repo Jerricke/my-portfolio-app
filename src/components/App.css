@@ -7,6 +7,7 @@
   font-family: "Nunito", sans-serif;
   color: #F4EEE0;
   overflow-x: hidden;
+  /* background-color: #393646; */
 }
 
 html {
@@ -82,6 +83,10 @@ transition: .3s, background-size .3s .3s;
 }
 
 /* NAVBAR SECTION */
+
+#welcome {
+  background-color: #4F4557;
+}
 
 /* HERO SECTION */
 .hero {
