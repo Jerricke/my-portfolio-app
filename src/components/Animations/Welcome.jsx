@@ -1,4 +1,4 @@
-import "../CSS/svgCSS.css";
+import "./svgCSS.css";
 
 function Welcome() {
     return (

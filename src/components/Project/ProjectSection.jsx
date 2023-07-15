@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import poke from "../../../assets/test.jpeg";
-import "../CSS/projectCss.css";
+import poke from "../../assets/test.jpeg";
+import "./projectCss.css";
 import ProjectDetail from "./ProjectDetail";
 
 

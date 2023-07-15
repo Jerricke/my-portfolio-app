@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "../CSS/NavBar.css";
+import "./NavBar.css";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
     const [isDisplay, setIsDispaly] = useState(false)
@@ -17,12 +18,13 @@ function NavBar() {
     return (
         <header>
             <div className="header">
-            <a href="#welcome"><h2 className="nameLogo">Jerrick Ee</h2></a>
+            <NavLink to="/" reloadDocument><h2 className="nameLogo">Jerrick Ee</h2></NavLink>
+            {/* <a href="#welcome"><h2 className="nameLogo">Jerrick Ee</h2></a> */}
             <nav>
                 <ul className="items">
-                <li className="navBtn"><a href="#About">About</a></li>
+                <li className="navBtn"><NavLink to="/#About" reloadDocument>About</NavLink></li>
                 <li className="navBtn"><a href="#ProjectSection">Projects</a></li>
-                    <li className="navBtn"><a href="#">Contact</a></li>
+                <li><NavLink to="contact">Contact</NavLink></li>
                 </ul>
             </nav>
             <button onClick={()=>handleClick()} className="dropDown">
@@ -37,7 +39,7 @@ function NavBar() {
                 <ul className="mobile-items">
                 <li className="navBtn"><a href="#About">About</a></li>
                 <li className="navBtn"><a href="#ProjectSection">Projects</a></li>
-                <li className="navBtn"><a href="#">Contact</a></li>
+                <li className="navBtn"><NavLink to="contact">Contact</NavLink></li>
                 </ul>
             </div>
         </header>

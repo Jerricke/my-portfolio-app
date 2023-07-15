@@ -7,10 +7,10 @@
   }
   
   .layer1 {
-    background-image: url('../../../assets/layer1.svg');
+    background-image: url('../../assets/layer1.svg');
   }
   
   .layer2 {
-    background-image: url("../../../assets/layer2.svg");
+    background-image: url("../../assets/layer2.svg");
   }
   
