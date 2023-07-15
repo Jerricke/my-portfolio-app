@@ -14,11 +14,6 @@ html {
 }
 
 
-#welcome {
-  background-color: var(--medium);
-}
-
-
 /* FADE IN */
 .fade-in {
   opacity: 0;

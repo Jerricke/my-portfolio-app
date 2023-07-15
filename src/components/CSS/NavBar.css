@@ -1,70 +1,107 @@
 /* NAVBAR SECTION */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    font-size: 1.25em;
-    background-color: var(--light);
-    z-index: 1;
-    overflow-y: hidden;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  font-size: 1.25em;
+  background-color: var(--light);
+  z-index: 1;
+  overflow-y: hidden;
+
+  position: fixed;
+  width: 100%;
+  height: 10%;
+}
+
+.nameLogo  {
+  padding: 0.5em 1em;
+  font-family: "Fasthand";
+}
+
+a {
+  text-decoration: none;
+}
+
+.nameLogo:hover {
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 2em;
+}
+
+.items li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin: 0 0.5em;
+}
+
+.items li a {
+  display: block;
+  padding: 0.5em 1.25em;
+}
+
+
+.navBtn {
+  --c: var(--text); /* the border color */
+  --b: 5px;    /* the border thickness*/
+  --g: 5px;     /* the gap on hover */
   
-    position: fixed;
-    width: 100%;
-    height: 10%;
-  }
-  
-  .nameLogo  {
-    padding: 0.5em 1em;
-    font-family: "Fasthand";
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .nameLogo:hover {
-    cursor: pointer;
-  }
-  
-  .items {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 0 2em;
-  }
-  
-  .items li {
-    list-style: none;
-    margin: 0 0.5em;
-  }
-  
-  .items li a {
-    display: block;
-    padding: 0.5em 1.25em;
-  }
-  
-  
-  .navBtn {
-    --c: var(--text); /* the border color */
-    --b: 5px;    /* the border thickness*/
-    --g: 5px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
-    cursor: pointer;
-  }
-  
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%,var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+      var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+      0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+  transition: .3s, background-position .3s .3s;
+  cursor: pointer;
+}
+
+@media (min-width: 650px) {
   .navBtn:hover {
   --_i: 100%;
   transition: .3s, background-size .3s .3s;
   }
+}
+
+.dropDown,
+.mobile-nav {
+  display: none
+}
   
   /* NAVBAR SECTION */
   
+@media (max-width: 1024px) {
+  .items li a {
+    font-size: 1rem;
+  } 
+}
+
+@media (max-width: 650px) {
+  .dropDown{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: var(--text)
+  }
+  .items{
+    display: none;
+  }
+  .mobile-nav {
+    position: absolute;
+    border: 1px solid var(--text);
+    z-index: 10;
+    padding: 10px;
+    top: 4.3rem;
+    right: 0;
+    background-color: var(--light);
+    font-size: 1rem;
+  }
+}

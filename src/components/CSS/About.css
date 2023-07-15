@@ -29,3 +29,28 @@
   
   
   /* ABOUT SECTION */
+
+  @media (max-width: 425px) {
+    .aboutSection {
+      padding: 1.5rem
+    }
+    .aboutSection .aboutMe h1 {
+      font-size: 2rem;
+    }
+    .aboutSection .aboutMe p{
+      font-size: 1rem;
+    }
+  }
+
+
+  @media (max-width: 320px) {
+    .aboutSection {
+      padding: 1rem
+    }
+    .aboutSection .aboutMe h1 {
+      font-size: 1.75rem;
+    }
+    .aboutSection .aboutMe p{
+      font-size: 0.8rem;
+    }
+  }
