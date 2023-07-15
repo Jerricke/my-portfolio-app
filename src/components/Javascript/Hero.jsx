@@ -1,11 +1,12 @@
-import Jerrick from "../assets/Jerrick.jpeg";
+import Jerrick from "../../assets/Jerrick.jpeg";
+import '../CSS/Hero.css'
 
 function Hero() {
 
     return (
         <div id="Hero" className="hero">
-            <img id="pfp" src={Jerrick} alt="jerrick" />
-            <div className="heroText">
+            <img className="fade-ina" id="pfp" src={Jerrick} alt="jerrick" />
+            <div className="fade-in heroText">
                 <h1>Jerrick Ee</h1>
                 <p>Full-stack Developer | Software Engineer | Mobile Developer</p>
             </div>
@@ -13,4 +14,4 @@ function Hero() {
     )
 }
 
-export default Hero;
+export default Hero;``

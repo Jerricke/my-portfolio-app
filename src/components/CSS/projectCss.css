@@ -1,5 +1,5 @@
 .projectSection {
-    background-color: #393646;
+    background-color: var(--dark);
 }
 
 .projectSection h1 {
@@ -42,7 +42,7 @@
     border-radius: 16px;
     position: relative;
     padding: 0.25rem;
-    border: 2px #F4EEE0 solid;
+    border: 2px var(--text) solid;
 }
 
 .projectCard img {
@@ -65,7 +65,7 @@
 }
 
 .projectCard .overlay button {
-    color: #F4EEE0;
+    color: var(--text);
     background: red;
     padding: 12px 24px;
     border: none;

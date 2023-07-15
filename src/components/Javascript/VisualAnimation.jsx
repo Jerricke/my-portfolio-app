@@ -1,4 +1,4 @@
-import "./svgCSS.css"
+import "../CSS/svgCSS.css"
  
 function VisualAnimation() {
     return (

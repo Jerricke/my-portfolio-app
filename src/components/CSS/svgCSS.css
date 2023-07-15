@@ -136,6 +136,6 @@
         fill: transparent;
     }
     to {
-        fill: #F4EEE0;
+        fill: var(--text);
     }
 }

@@ -1,0 +1,100 @@
+/* HERO SECTION */
+.hero {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+padding: 10em 10em 3em 10em;
+background-color: var(--dark);
+}
+
+.hero div {
+flex: 1;
+gap: 1em;
+}
+
+.hero img {
+width: 25rem; 
+padding: 1rem;
+margin: 0 5rem 0 10rem;
+border: 5px var(--text) solid;
+border-radius: 15%;
+flex-shrink: 1;
+}
+
+@media (min-width: 1000px) {
+  .hero img:hover {
+  scale: 1.05;
+  }
+}
+
+.heroText h1 {
+margin-top: 10rem;
+font-size: 5em;
+}
+
+
+.heroText p {
+margin-top: 1em;
+font-size: 1.5em;
+}
+  /* HERO SECTION */
+
+@media (max-width: 1300px) {
+  .hero {
+    padding: 4em
+  }
+  .hero img {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    display: block
+  }
+
+  .hero img {
+    display:block;
+    width: 75%; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px var(--text) solid;
+    border-radius: 15%;
+  }
+
+  .heroText {
+    text-align: center;
+
+  }
+
+  .heroText h1 {
+    margin-top: 1rem;
+    font-size: 5em;
+    }
+    
+  .heroText p {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 425px) {
+  .heroText h1 {
+    font-size: 3em;
+    }
+  .heroText p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero img {
+    width: 100%
+  }
+  .heroText h1 {
+    font-size: 2.5em;
+    }
+  .heroText p {
+    font-size: 0.5em;
+  }
+}

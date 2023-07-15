@@ -1,8 +1,10 @@
+import "../CSS/NavBar.css";
+
 function NavBar() {
 
     return (
         <header>
-            <a href="#Hero"><h2 className="nameLogo">Jerrick Ee</h2></a>
+            <a href="#welcome"><h2 className="nameLogo">Jerrick Ee</h2></a>
             <nav>
                 <ul className="items">
                 <li className="navBtn"><a href="#About">About</a></li>

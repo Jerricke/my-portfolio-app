@@ -1,1 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito&display=swap');
+:root {
+    --dark: #393646;
+    --medium: #4F4557;
+    --light: #6D5D6E;
+    --text: #F4EEE0;
+  }

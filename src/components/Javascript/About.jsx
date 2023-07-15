@@ -1,5 +1,5 @@
-
 import VisualAnimation from "./VisualAnimation";
+import '../CSS/About.css'
 
 function About() {
 
