@@ -95,11 +95,12 @@ a {
     display: none;
   }
   .mobile-nav {
-    position: absolute;
+    position: fixed;
     border: 1px solid var(--text);
-    z-index: 10;
+    z-index: 1;
     padding: 10px;
-    top: 4.3rem;
+    margin-top: 4.3rem;
+    top: 0;
     right: 0;
     background-color: var(--light);
     font-size: 1rem;
